@@ -1,0 +1,89 @@
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environments & Packages
+.venv/
+venv/
+ENV/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables & secrets
+.env
+.env.*
+
+# ==========================================
+# Jupyter Notebooks
+# ==========================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.virtual_documents/
+
+# ==========================================
+# LaTeX (Build & Auxiliary Files)
+# ==========================================
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+
+# ==========================================
+# PDFs & Images (Selective Tracking)
+# ==========================================
+# Option A: Ignore ALL generated PDFs (Uncomment if PDFs are generated outputs)
+# *.pdf
+
+# Option B: Ignore PDFs in build folders, but keep source PDFs
+# /build/*.pdf
+# /output/*.pdf
+
+# Option C: Ignore generated plot images (Uncomment/adjust folder names as needed)
+# /plots/*.png
+# /output/*.jpg
+
+# ==========================================
+# OS & Editor Specific
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
